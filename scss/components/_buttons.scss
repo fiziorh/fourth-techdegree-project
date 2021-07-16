@@ -14,22 +14,43 @@
   }
   
   .default {
-    background-color: #51ddfc;
+    background-color: $lighten-blue;
   }
   
   .error {
-    background-color: #e4757a;
+    background-color: $buttonred;
   }
   
   .info {
-    background-color: #927bc1;
+    background-color: $buttonpurple;
   }
   
   .success {
-    background-color: #63cc82;
+    background-color: $buttongreen;
   }
   
   .warning {
-    background-color: #fd7856;
+    background-color: $buttonorange;
   }
   
+  // HOVER
+
+.default:hover {
+  background-color: $lighten-hoverblue;
+}
+
+.error:hover {
+  background-color: $buttonred-lighten;
+}
+
+.info:hover {
+  background-color: $buttonpurple-lighten;
+}
+
+.success:hover {
+  background-color: $buttongreen-darken;
+}
+
+.warning:hover {
+  background-color: $buttonorange-darken;
+}

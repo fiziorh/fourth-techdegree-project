@@ -5,13 +5,15 @@
 .headline-primary {
     color: $primary;
     margin-left: 10px;
+
+    &-secondary {
+      font-weight: 300;
+      color: #777;
+    }
+    
   }
   
-  .headline-secondary {
-    font-weight: 300;
-    color: #777;
-  }
-  
+
   .link {
     color: #51ddfc;
     font-weight: 700;

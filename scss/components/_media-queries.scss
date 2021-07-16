@@ -1,7 +1,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (min-width: $desktop) {
 
     .container {
       max-width: 1400px;
@@ -83,11 +83,12 @@
       flex-direction: row;
       justify-content: flex-end;
       align-items: center;
+      &-link {
+        flex-basis: 100px;
+      }
     }
     
-    .nav-link {
-      flex-basis: 100px;
-    }
+    
     
     .btn {
       padding: 10px 30px;

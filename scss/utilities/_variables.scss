@@ -4,3 +4,20 @@ $primary: #58e1c1;
 $purpleish: #deb2ee;
 $slightred: #ec9fa3;
 $darkblue: #4da2bb;
+$desktop: 768px;
+
+//buttons variables
+$lighten-blue: #51ddfc;
+$lighten-hoverblue: lighten($lighten-blue, 20%);
+
+$buttonred: #e4757a;
+$buttonred-lighten: lighten($buttonred, 20%);
+
+$buttonpurple: #927bc1;
+$buttonpurple-lighten: lighten($buttonpurple, 20%);
+
+$buttongreen: #63cc82;
+$buttongreen-darken: darken($buttongreen, 20%);
+
+$buttonorange: #fd7856;
+$buttonorange-darken: darken($buttonorange, 20%);
